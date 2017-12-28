@@ -3,6 +3,8 @@ use mydb;
 create table User (
 	userId int primary key auto_increment,
 	userName varchar(20) not null,
+	firstName varchar(20) not null,
+	lastName varchar(20) not null,	
 	password varchar(20) not null,
 	address varchar(100) not null,
 	email varchar(320)
