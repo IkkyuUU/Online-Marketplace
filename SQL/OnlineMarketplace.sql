@@ -14,6 +14,8 @@ drop table if exists Specification;
 create table User (
 	userId int primary key auto_increment,
 	userName varchar(20) not null,
+	firstName varchar(20) not null,
+	lastName varchar(20) not null,	
 	password varchar(20) not null,
 	address varchar(100) not null,
 	email varchar(320)
@@ -105,8 +107,9 @@ create table ProductSpecification (
 	CHECK ((value is null) <> (min is null and max is null))
 );
 
+
 #Create User
-insert into User values(null, 'admin', 'admin', 'address', 'admin@ol.com');
+insert into User values(null, 'admin', 'admin', 'yu', 'yu', 'address', 'admin@ol.com');
 select * from User;
 
 #Create Product Category
@@ -172,4 +175,3 @@ insert into ProductSpecification values(3, 7, 60, null, null);
 insert into ProductSpecification values(3, 8, null, 12.3, 57);
 insert into ProductSpecification values(3, 9, 13, null, null);
 select * from ProductSpecification;
-
