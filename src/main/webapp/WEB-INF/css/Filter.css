@@ -1,0 +1,188 @@
+div.Grey {
+  background: LightGrey;
+  border: 0.5px solid;
+  height:5px
+  line-height: 5px;
+  text-align: center;
+
+}
+
+
+div.White{
+  border: 0.5px solid;
+  height:5px
+  line-height: 5px;
+  text-align: center;
+}
+
+
+.pointer {cursor: pointer;}
+
+.Product {
+  background: green;
+}
+
+
+
+
+
+div.blue {
+  background-color: blue;
+  border: 0.5px solid;
+  color: white;
+  height:5px
+  line-height: 5px;
+  text-align: center;
+}
+
+/* popupwindow */
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+    border:0.5px solid;
+}
+
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+}
+
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+
+/* CSS from Yu */
+body {
+  margin: 10px;
+  border: 2px solid #42729a;
+  padding:0;
+  width:99%;
+  height:auto;
+  overflow-x: hidden;
+}
+
+
+.header {
+  width: 100%;
+  height: 9em;
+  /* border: 1px solid black; */
+  background: linear-gradient(to right, #f2f6fb, #b3cae3);
+}
+
+.header .logo {
+  text-align: left;
+  /* background-color: black; */
+  margin: 10px auto;
+}
+
+.header .logo img {
+  height: 7em;
+  width: auto;
+  margin-left: 20%;
+}
+
+.header .searchbar {
+  text-align: center;
+  display: inline;
+  /* background-color: yellow; */
+  margin: 10px auto;
+  height: 7em;
+}
+
+.header .userBar {
+  margin: 10px auto;
+  height: 7em;
+  /* background-color: blue; */
+}
+
+.header .userBar .link {
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.header .userBar .link a {
+  color: grey;
+  text-decoration: none;
+}
+
+.header .userBar img {
+  height:  5em;
+  width: auto;
+  border-radius: 50%;
+  float: right;
+}
+
+
+.Search {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+
+/* end */
+
+
+div {
+  margin: 0.5px 0
+}
+
+
+.PopTitle {
+  border: 0.5px solid;
+  background: LightGrey;
+  margin:0.5px 0;
+}
+
+.PopSubtitle {
+  border: 0.5px solid;
+  background: #f0f0f5;
+  margin: 0.5px 0;
+}
+
+
+.PopContent {
+  margin:5px 0;
+}
