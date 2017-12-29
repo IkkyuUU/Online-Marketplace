@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ html, body{
+    height: 100%;
+    width: 100%;
+  /* border: 1px solid black; */
+  background: linear-gradient(to top, #f2f6fb, #b3cae3);
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-1  col-lg-offset-10 ">UserName</div>
+			<div class="col-lg-1">
+				<img id="userphoto" alt="" src="../images/ProjectDepotLogo.png"
+					class="img-circle" style="height: 60px; width: 60px;" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-offset-5">
+				<img id="logo" alt="" src="../images/Logo copy.png"
+					class="img-rounded" style="height: 300px; width: 300px;" />
+			</div>
+		</div>
+
+		<div class="row no-gutter">
+			<div class="col-lg-offset-3">
+				<form class="form-inline">
+					<button class="btn btn-primary dropdown-toggle" style =" background-color: grey; height: 60px;"type="button" data-toggle="dropdown">Mechanical
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Electrical</a></li>
+                      <li><a href="#">Computer</a></li>
+                    </ul>
+					<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search...."
+						name="search"
+						style="border-color: grey; background-color: white; height: 60px; width: 420px">
+					<button class="btn btn-default" type="submit"
+						style="background-color: white; border-color: grey; height: 60px;">
+						<i class="glyphicon glyphicon-search"></i>
+					</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

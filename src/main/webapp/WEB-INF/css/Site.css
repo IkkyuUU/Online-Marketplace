@@ -1,10 +1,11 @@
 body {
-  margin: 10px;
+  margin: 1px;
   border: 2px solid #42729a;
   padding:0;
   width:99%;
-  height:68em;
+ /*  height:68em; */
   overflow-x: hidden;
+  position: relative; 
 }
 
 
@@ -57,3 +58,25 @@ body {
   border-radius: 50%;
   float: right;
 }
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999 !important;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.affix ~ .container-fluid {
+     position: relative;
+      width: 100%;
+     top: 50px;
+  }
+  
+  #summary {padding-top:40px;height:500px;}
+  #details {padding-top:40px;height:500px;}
+  #documentation {padding-top:40px;height:500px;}
+  #contacts		 {padding-top:40px;height:500px;}	
