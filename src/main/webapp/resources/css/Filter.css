@@ -1,0 +1,286 @@
+div.Grey {
+  background: LightGrey;
+  border: 0.5px solid;
+  height:5px
+  line-height: 5px;
+  text-align: center;
+
+}
+
+
+div.White{
+  border: 0.5px solid;
+  height:5px
+  line-height: 5px;
+  text-align: center;
+}
+
+
+.pointer {cursor: pointer;}
+
+.Product {
+  background: green;
+}
+
+
+
+
+
+div.blue {
+  background-color: blue;
+  border: 0.5px solid;
+  color: white;
+  height:5px
+  line-height: 5px;
+  text-align: center;
+}
+
+/* popupwindow */
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+    border:0.5px solid;
+    z-index: 999;
+}
+
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+    z-index: 999;
+}
+
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+
+/* CSS from Yu */
+body {
+  margin: 10px;
+  border: 2px solid #42729a;
+  padding:0;
+  width:99%;
+  height:auto;
+  overflow-x: hidden;
+}
+
+
+.header {
+  width: 100%;
+  height: 9em;
+  /* border: 1px solid black; */
+  background: linear-gradient(to right, #f2f6fb, #b3cae3);
+}
+
+.header .logo {
+  text-align: left;
+  /* background-color: black; */
+  margin: 10px auto;
+}
+
+.header .logo img {
+  height: 7em;
+  width: auto;
+  margin-left: 20%;
+}
+
+.header .searchbar {
+  text-align: center;
+  display: inline;
+  /* background-color: yellow; */
+  margin: 10px auto;
+  height: 7em;
+}
+
+.header .userBar {
+  margin: 10px auto;
+  height: 7em;
+  /* background-color: blue; */
+}
+
+.header .userBar .link {
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.header .userBar .link a {
+  color: grey;
+  text-decoration: none;
+}
+
+.header .userBar img {
+  height:  5em;
+  width: auto;
+  border-radius: 50%;
+  float: right;
+}
+
+
+.Search {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+
+/* end */
+
+
+div {
+  margin: 0.5px 0
+}
+
+
+.PopTitle {
+  border: 0.5px solid;
+  background: LightGrey;
+  margin:0.5px 0;
+}
+
+.PopSubtitle {
+  border: 0.5px solid;
+  background: #f0f0f5;
+  margin: 0.5px 0;
+}
+
+
+.PopContent {
+  margin:5px 0;
+}
+
+.navCategory {
+
+}
+
+.navCategory ul {
+  text-decoration: none;
+}
+
+.navCategory ul li {
+  margin: 5px;
+  display: inline;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main {
+  height: 58em;
+  /* border: 2px solid red; */
+  margin: 10px auto;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.main .item {
+  margin: 0;
+  padding: 0;
+  min-width: 25%;
+  /* background-color: lightblue; */
+  display: inline-block;
+  float: left;
+  border: 2px solid #dfe0df;
+}
+
+.main .item:hover {
+  cursor: pointer;
+}
+
+.main .item .pic {
+  height: 20%;
+  padding: 10px;
+  border: 1px solid #a8a9a8;
+}
+
+.main .item .pic .date {
+  float: right;
+  color: lightblue;
+  margin-top: 2%;
+}
+
+.main .item .pic .image {
+  clear: both;
+  text-align: center;
+}
+
+.main .item .pic .image img {
+  height: 7em;
+  margin-top: 3%;
+}
+
+.main .item .pic .info {
+  text-align: center;
+}
+
+.main .item .pic .info p {
+  color: #1f4f79;
+  margin: 0;
+  margin-top: 2px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main .item .spec {
+  background-color: #f1f2f1;
+  text-align: center;
+  padding: 5px;
+}
+
+.main .item .spec p {
+	color: #7d7e7d;
+  font-size: 15px;
+}
+
+.main .item .compare {
+  padding: 5px;
+}
+
+.main .item .compare .box {
+  float: left;
+  margin-left: 5%;
+}
+
+.main .item .compare .addButton {
+  float: right;
+  margin-right: 5%;
+}

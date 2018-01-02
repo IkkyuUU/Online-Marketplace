@@ -1,0 +1,108 @@
+.affix {
+	top: 0;
+	z-index: 9999 !important;
+}
+
+.navbar {
+	margin-bottom: 0px;
+  width: 100%;
+}
+
+.affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+}
+
+#myNavbar ul {
+  background-color: #f1f2f1;
+  border: 1px solid #c2c3c2;
+  width: 104%;
+  margin-left: -2%;
+}
+
+#myNavbar ul li {
+    border-right: 1px solid #c2c3c2;
+}
+
+#myNavbar ul li a:hover {
+  background-color: #a4a4a4;
+}
+
+#myNavbar ul .active {
+  background-color: #7e7f7e;
+}
+
+#myNavbar ul .active a {
+	color: white;
+  pointer-events: none;
+}
+
+
+#myNavbar ul li a {
+	font-size: 15px;
+	font-weight: bold;
+	color: #2e2f2e;
+}
+
+#summary {padding-top:40px;height:500px;}
+#details {padding-top:40px;height:500px;}
+#documentation {padding-top:40px;height:500px;}
+#contacts		 {padding-top:40px;height:500px;}
+
+.productIMG {
+  margin-top: 5px;
+  margin-left: 1em;
+}
+
+.productIMG img {
+  height: 7em;
+}
+
+.productTitle {
+  margin-top: 5px;
+  line-height: 7em;
+}
+
+.productTitle p {
+  margin-left: -15%;
+  color: #1e4e79;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navCategory {
+
+}
+
+.navCategory ul {
+  text-decoration: none;
+}
+
+.navCategory ul li {
+  margin: 5px;
+  display: inline;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navCategory ul li a {
+  color: #1e4e79;
+}
+
+.tab-content h3 {
+  color: #1f4f79;
+  font-weight: bold;
+}
+
+.tab-content table {
+  width: 100%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.tab-content table tbody tr td:first-child {
+  width: 40%;
+  background-color: #f1f2f1;
+  border: none;
+}

@@ -21,6 +21,7 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 <link rel="stylesheet" href="../css/Site.css">
+<link rel="stylesheet" href="../css/productDetail.css">
 
 
 </head>
@@ -79,29 +80,48 @@
 		</div>
 	</div>
 
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-5"></div>
-			<div class="col-md-5"></div>
-			<div class="col-md-1"></div>
+	<div class="container-fluid">
+		<div class="navCategory">
+			<ul>
+				<li><a href="#">Category</a></li>
+				<li>&gt;</li>
+				<li><a href="#">SubCategory</a></li>
+				<li>&gt;</li>
+				<li style="color: grey">Compare</li>
+			</ul>
 		</div>
 
-		<nav class="navbar navbar-inverse" data-spy="affix"
+		<div class="row">
+			<div class="col-sm-2 productIMG">
+			  <img src="../images/Logo.png" alt="test">
+			</div>
+			<div class="col-sm-8 productTitle">
+				<p>MANUFACTURER / SERIES / Model</p>
+			</div>
+		</div>
+
+		<nav class="navbar" data-spy="affix"
 			data-offset-top="197">
 
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li><a href="#summary">Product Summary</a></li>
-					<li><a href="#details">Product Details</a></li>
-					<li><a href="#documentation">Product Documentation</a></li>
-					<li><a href="#contacts">Contacts</a></li>
+					<li class="nav-item active">
+						<a href="#summary" class="nav-link" disabled>Product Summary</a>
+					</li>
+					<li class="nav-item">
+						<a href="#details" class="nav-link">Product Details</a>
+					</li>
+					<li class="nav-item">
+						<a href="#documentation" class="nav-link">Product Documentation</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contacts" class="nav-link">Contacts</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
 		<div class="tab-content">
-			<div id="summary" class="container">
+			<div id="summary" class="container-fluid">
 				<h3>Product Summary</h3>
 				<div class="row">
 					<div class="col-md-6">
@@ -113,13 +133,16 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td style="background: lightgray;">Manufacturer</td>
+									<td>Manufacturer</td>
+									<td>test</td>
 								</tr>
 								<tr>
-									<td style="background: lightgray;">Series</td>
+									<td>Series</td>
+									<td>test</td>
 								</tr>
 								<tr>
-									<td style="background: lightgray;">Model</td>
+									<td>Model</td>
+									<td>test</td>
 								</tr>
 							</tbody>
 
@@ -133,19 +156,24 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td style="background: lightgray;">Use Type</td>
+									<td >Use Type</td>
+									<td>test</td>
 								</tr>
 								<tr>
-									<td style="background: lightgray;">Application</td>
+									<td >Application</td>
+									<td>test</td>
 								</tr>
 								<tr>
-									<td style="background: lightgray;">Mounting Location</td>
+									<td >Mounting Location</td>
+									<td>test</td>
 								</tr>
 								<tr>
-									<td style="background: lightgray;">Accessories</td>
+									<td >Accessories</td>
+									<td>test</td>
 								</tr>
 								<tr>
-									<td style="background: lightgray;">Model Year</td>
+									<td >Model Year</td>
+									<td>test</td>
 								</tr>
 							</tbody>
 						</table>
@@ -158,31 +186,55 @@
 								</tr>
 							</thead>
 							<tr>
-								<td style="background: lightgray;">Airflow (CFM)</td>
+								<td>Airflow (CFM)</td>
+								<td colspan="4">test</td>
 							</tr>
 							<tr>
-								<td style="background: lightgray;">Power (W)</td>
+								<td >Power (W)</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
 							</tr>
 							<tr>
-								<td style="background: lightgray;">Operating Voltage (VAC)</td>
+								<td >Operating Voltage (VAC)</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
 							</tr>
 							<tr>
-								<td style="background: lightgray;">Fan Speed (RPM)</td>
+								<td >Fan Speed (RPM)</td>
+								<td colspan="4">test</td>
 							</tr>
 							<tr>
-								<td style="background: lightgray;">Number of Fan Speeds</td>
+								<td >Number of Fan Speeds</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
 							</tr>
 							<tr>
-								<td style="background: lightgray;">Sound at Max Speed (dBA)</td>
+								<td >Sound at Max Speed (dBA)</td>
+								<td colspan="4">test</td>
 							</tr>
 							<tr>
-								<td style="background: lightgray;">Fan Sweep Diameter (in)</td>
+								<td >Fan Sweep Diameter (in)</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
 							</tr>
 							<tr>
-								<td style="background: lightgray;">Height (in)</td>
+								<td >Height (in)</td>
+								<td colspan="4">test</td>
 							</tr>
 							<tr>
-								<td style="background: lightgray;">Weight (lbs)</td>
+								<td >Weight (lbs)</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
+								<td style="background-color: #f1f2f1">test</td>
+								<td>test</td>
 							</tr>
 							<tbody>
 							</tbody>
@@ -191,7 +243,7 @@
 				</div>
 			</div>
 
-			<div id="details" class="container">
+			<div id="details" class="container-fluid">
 				<h3>Product Details</h3>
 				<table class="table" style="width: 100%;">
 					<thead>
@@ -201,32 +253,32 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td style="background: lightgray;">Airfoils -</td>
+							<td >Airfoils -</td>
 						</tr>
 						<tr>
 							<td style="background: white;">Airfoil Finishes -</td>
 						</tr>
 						<tr>
-							<td style="background: lightgray;">Hardware Finishes -</td>
+							<td >Hardware Finishes -</td>
 						</tr>
 						<tr>
 							<td style="background: white;">Motor -</td>
 						</tr>
 						<tr>
-							<td style="background: lightgray;">Exceeds ENERGY STAR fan
+							<td >Exceeds ENERGY STAR fan
 								efficiency requirements by up to</td>
 						</tr>
 						<tr>
 							<td style="background: white;">Controls -</td>
 						</tr>
 						<tr>
-							<td style="background: lightgray;">Onboard Sensors -</td>
+							<td >Onboard Sensors -</td>
 						</tr>
 						<tr>
 							<td style="background: white;">Environment -</td>
 						</tr>
 						<tr>
-							<td style="background: lightgray;">Accessories -</td>
+							<td >Accessories -</td>
 						</tr>
 						<tr>
 							<td style="background: white;">Made in - USA</td>
@@ -235,13 +287,13 @@
 				</table>
 			</div>
 
-			<div id="documentation" class="container">
+			<div id="documentation" class="container-fluid">
 				<h3>Product Documentation</h3>
 				Product Warranty.Doc<br> <br> Product Manual.Pdf<br>
 				<br> User Guide.Pdf <br> <br> The End...<br>
 			</div>
 
-			<div id="contacts" class="container">
+			<div id="contacts" class="container-fluid">
 				<h3>Contacts</h3>
 				<div class="row">
 					<div class="col-md-6">
