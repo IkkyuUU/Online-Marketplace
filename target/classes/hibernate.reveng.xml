@@ -2,14 +2,14 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-  <table-filter match-catalog="mydb" match-name="Product"/>
-  <table-filter match-catalog="mydb" match-name="ProductCategory"/>
-  <table-filter match-catalog="mydb" match-name="ProductDetail"/>
-  <table-filter match-catalog="mydb" match-name="ProductSpecification"/>
-  <table-filter match-catalog="mydb" match-name="ProductSubCategory"/>
-  <table-filter match-catalog="mydb" match-name="Project"/>
-  <table-filter match-catalog="mydb" match-name="ProjectDetails"/>
-  <table-filter match-catalog="mydb" match-name="Specification"/>
-  <table-filter match-catalog="mydb" match-name="SubCategorySpecification"/>
-  <table-filter match-catalog="mydb" match-name="User"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="Product"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="ProductCategory"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="ProductDetail"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="ProductSpecification"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="ProductSubCategory"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="Project"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="ProjectDetails"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="Specification"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="SubCategorySpecification"/>
+  <table-filter match-catalog="OnlineMarketplace" match-name="User"/>
 </hibernate-reverse-engineering>
