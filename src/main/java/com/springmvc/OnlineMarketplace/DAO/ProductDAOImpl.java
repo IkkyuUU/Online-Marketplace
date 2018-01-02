@@ -2,42 +2,33 @@ package com.springmvc.OnlineMarketplace.DAO;
 
 import java.util.List;
 
-import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.hibernate.Criteria;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
 import com.springmvc.OnlineMarketplace.Bean.Product;
-import com.springmvc.OnlineMarketplace.Bean.ProductSpecification;
-import com.springmvc.OnlineMarketplace.Bean.Specification;
 
 @Repository("productDAO")
-public class ProductDAOImpl implements ProductDAO {
-
-	@Autowired
-	private SessionFactory sessionFactory;
+public class ProductDAOImpl extends AbstractDAO<Product> implements ProductDAO {
 	
 	@Override
 	public Product findProductById(int id) {
 		// TODO Auto-generated method stub
-		return (Product) sessionFactory.getCurrentSession().get(Product.class, id);
-	}
-
-	@Override
-	public List<Specification> findAllProductSpecById(int id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public ProductSpecification findProdSpecValueById(int prodId, int specId) {
-		// TODO Auto-generated method stub
-		return null;
+		return getByKey(id);
 	}
 
 	@Override
 	public List<Product> findAllProduct() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public List<Product> findProductBySubCategoryId(int subId) {
+		// TODO Auto-generated method stub
+		Criteria criteria = createEntityCriteria();
+		criteria.add(Restrictions.eq("prodSubCategoryId", subId));
+		return criteria.list();
 	}
 
 }

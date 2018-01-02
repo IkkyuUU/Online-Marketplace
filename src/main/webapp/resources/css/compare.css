@@ -1,0 +1,127 @@
+.navCategory {
+
+}
+
+.navCategory ul {
+  text-decoration: none;
+}
+
+.navCategory ul li {
+  margin: 5px;
+  display: inline;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main {
+  height: 58em;
+  /* border: 2px solid red; */
+  margin: 10px auto;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.main .item {
+  margin: 0;
+  padding: 0;
+  min-width: 20%;
+  /* background-color: lightblue; */
+  display: inline-block;
+  float: left;
+  /* border: 2px dotted green; */
+}
+
+.main .item .pic {
+  height: 20%;
+  padding: 10px;
+  border: 1px solid #a8a9a8;
+}
+
+.main .item .pic .addButton {
+  float: left;
+}
+
+.main .item .pic .date {
+  float: right;
+  color: lightblue;
+  margin-top: 2%;
+}
+
+.main .item .pic .image {
+  clear: both;
+  text-align: center;
+}
+
+.main .item .pic .image img {
+  height: 7em;
+  margin-top: 3%;
+}
+
+.main .item .divider {
+  height: 2em;
+  line-height: 2em;
+  border: 1px solid #a8a9a8;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main .item .divider p {
+  color: grey;
+  margin-left: 9%;
+  transform: scale(1.15, 1);
+}
+
+.main .item .description {
+  padding: 0;
+  /* height: 12%; */
+  border: 1px solid #a8a9a8;
+  text-align: center;
+}
+
+.main .item .detail {
+  font-size: 20px;
+  width: 100%;
+  border: 1px solid #f1f2f1;
+  height: 2em;
+}
+
+.main .item .type {
+  padding: 0;
+  /* height: 20%; */
+  border: 1px solid #a8a9a8;
+  text-align: center;
+}
+
+.main .item .spec {
+  padding: 0;
+  /* height: 15%; */
+  border: 1px solid #a8a9a8;
+  text-align: center;
+}
+
+.main .item .detail .min {
+  float: left;
+  width: 50%;
+  line-height: 2em;
+  text-align: center;
+}
+
+.main .item .detail .key {
+  float: left;
+  width: 50%;
+  text-align: center;
+  background-color: #f1f2f1;
+}
+
+.main .item .detail .value {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+.main .item .detail .max {
+  float: right;
+  width: 50%;
+  line-height: 2em;
+  text-align: center;
+}

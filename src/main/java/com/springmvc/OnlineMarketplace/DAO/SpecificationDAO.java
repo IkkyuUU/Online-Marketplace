@@ -8,6 +8,6 @@ public interface SpecificationDAO {
 	
 	Specification findSpecById(int id);
 	
-	List<Specification> findAllSpec();
+	List<Specification> findAllSpecBySpecIds(List<Integer> sids);
 	
 }
