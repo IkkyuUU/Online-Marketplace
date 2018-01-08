@@ -34,4 +34,14 @@ public abstract class AbstractDAO<T> {
 	protected Criteria createEntityCriteria() {
 		return getSession().createCriteria(persistentClass);
 	}
+
+	@SuppressWarnings("unchecked")
+	public void insertRecord(T record) {
+	    try { // todo: exception handling here or else where?
+		getSession().persist(record);
+	    } catch (Exception e) {
+		e.printStackTrace();
+	    }
+	}
+
 }
